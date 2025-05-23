@@ -20,14 +20,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; // SMTP server
         $mail->SMTPAuth = true;
-        $mail->Username = '2024researchgroup066@gmail.com'; // Your Gmail address
-        $mail->Password = 'Research_SEAMSENSE#2024'; // Your Gmail App Password
+        $mail->Username = 'mindbridgekid2@gmail.com'; // Your Gmail address
+        $mail->Password = 'Mindbridge@123'; // Your Gmail App Password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Email headers and content
         $mail->setFrom($email, "$first_name $last_name");
-        $mail->addAddress('kavindu.kasthu@gmail.com'); // Your receiving email address
+        $mail->addAddress('nileeshadilshan@gmail.com'); // Your receiving email address
         $mail->addReplyTo($email, "$first_name $last_name");
 
         $mail->Subject = $subject;
