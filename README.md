@@ -15,7 +15,7 @@
 #### External Supervisor -
 
 - Dr. Kamalani Wanigasinghe
-- Ms. Kalpani Dissanayake
+- Ms. Kalpani Abeysinghe
 
 #### Group Members -
 
